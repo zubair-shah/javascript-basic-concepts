@@ -157,7 +157,7 @@
 // agar hame apne user se input me number lena hoto to parseint me lenge wo string ko number me convert kardega
 // or agar user se decimal me number lena ho to parseFloat use karenge ye decimal ko number me convert kardega or ham number bhi use karsakte hen
 
-// var age = prompt("what is your age"); //5
+//  var age = prompt("what is your age"); //5
 
 // var num = 5;
 // var sum = parseInt(age) + num;
@@ -202,22 +202,22 @@
 
 
 
-// var c =   80;
-// var d = !(c > 50 );
-//  alert(d);    //return false
+var c =   80;
+var d = !(c > 50 );
+ alert(d);    //return false
 
-//  var a = 60 ;
-//  var b = a < 100;
-//  var c = !b;
-//  var d = !(a <  100);
+ var a = 60 ;
+ var b = a < 100;
+ var c = !b;
+ var d = !(a <  100);
 
-//  var e = !true;
+ var e = !true;
 
-//  console.log("A = "+a);
-//  console.log("B = "+b);
-//  console.log("C = "+c);
-//  console.log("D = "+d);
-//  console.log("E = "+e);
+ console.log("A = "+a);
+ console.log("B = "+b);
+ console.log("C = "+c);
+ console.log("D = "+d);
+ console.log("E = "+e);
 
 
 // && and || ko shortcerkit bhi kehte hen is lia ke agar && ke case me result false mil gya to wo age nhi jata Balke wahi par end result false show 
