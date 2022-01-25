@@ -30,9 +30,9 @@
 // foods[1]= "Burger";
 // foods[2]= "Banana";
 // console.log(foods);
-// console.log(foods[1]);
-// console.log(foods[5]);
-// foods[7]= "sandwhich";
-// console.log(foods);
-// console.log(foods[7]);
-// console.log(foods[5]);  
+//  console.log(foods[1]);
+//  console.log(foods[5]);
+//  foods[7]= "sandwhich";
+//  console.log(foods);
+//  console.log(foods[7]);
+//  console.log(foods[5]);  

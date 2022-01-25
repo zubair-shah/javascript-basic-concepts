@@ -28,6 +28,7 @@
 
 // for (let i = 0; i <7; i++) { 
 //    foods[i]= i * 2;
+//    console.log(foods)
    
 // }
 // for (let j = 0; j < foods.length; j++) {
@@ -110,7 +111,7 @@
 // ==================toLowerCase====toUpperCase=============
 
 // var food = "Pizza";
-// var input = prompt("enter you food");
+// var input = prompt("enter your food");
 
 // if (food.toLowerCase() === input.toLowerCase()) {
 //     console.log("Matched")
@@ -158,9 +159,9 @@
 
 // =====================split-function========================
 // split ka function string me mojood charecters ko array me convert kardeta he respect to the passing of arguments in curley braces
-// var a = "to be or not to be";
-// var b = a.split(" ");
-// console.log(b);
+var a = "to be or not to be";
+var b = a.split(" ");
+console.log(b);
 
 // functions of String;
 
@@ -168,14 +169,14 @@
 // concat();             repeat()             trim()
 // endswith();           search()             starswith()
 // includes()            substring()          replace()
-// function sizeIncreas(){
-//     document.getElementById('button').style.display="inline-block";
-//     document.getElementById('demo').style.cssText= "color:pink;font-size:50px";
-// }
-// function decrease(){
-//     document.getElementById('button').style.display="none";
-//     document.getElementById('demo').style.cssText="font-size:10px;color:black;margin-top:200px";
-// }
+function sizeIncreas(){
+    document.getElementById('button').style.display="inline-block";
+    document.getElementById('demo').style.cssText= "color:pink;font-size:50px";
+}
+function decrease(){
+    document.getElementById('button').style.display="none";
+    document.getElementById('demo').style.cssText="font-size:10px;color:black;margin-top:200px";
+}
 
 
 // =====================Math-function========================
@@ -198,7 +199,7 @@
 // Math.floor();  ye function numbers ko nearest heighest intiger tk round of karne ke lia kam ata he  agar 4.4 hoga to ose 4 kardega 
 // yani hamesha lower side me round of karega
 // var average = (15 + 23 + 39) / 3; //25.666
-// var roundAverage = Math.floor(average) ; // 26 
+// var roundAverage = Math.floor(average) ; // 25 
 // console.log(average);
 // console.log(roundAverage);
 
@@ -210,7 +211,8 @@
 // var num1 = (num * 10 ) + 1;
 // var dice = Math.floor(num1);
 // console.log(dice);
-
+//  var a = Math.sin(90)
+//  console.log(a)
 // ============================different-function-of-math-==============================
 // Math.pow();            Math.tan()
 // Math.sqrt();           Math.sign()
@@ -234,13 +236,13 @@
 
 // agar ham charahe hen ke day jo he wo numeric me na ae balke likha wa ae to oske liye app days ka array bana len or phr array se get karwa len
 
-// var date1 = new Date("june 01 2021 02:03:33");
+// var date1 = new Date("january 25 2021 09:01:33");
 // var date2 = new Date("june 09 2021 02:03:33");
 // console.log(date1);
 // console.log(date2);
 
-// var daysDiff = date2 - date1;
-// console.log(daysDiff);
+    // var daysDiff = date2 - date1;
+    // console.log(daysDiff);
 
 // var timeInday = 24 * 60 * 60 * 1000 ;
 // console.log(timeInday);

@@ -46,7 +46,7 @@
 // foods.push(prompt("enter your second food"));
 // foods.push(prompt("enter your third food"));
 // console.log(foods);
-// console.log(foods.legth);
+// console.log(foods.length);
 // foods.push("Mango");
 
 // var a1 = foods.pop();

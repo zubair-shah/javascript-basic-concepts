@@ -32,14 +32,14 @@
 // var a2 = false || "Cat";      //false && true  returns "Cat"
 // var a3 = "Cat" || false;      //t     && f     returns  "Cat"
 // var a4 = ' '   || false;     // f     && f  returns      false
-// var a5 = false && ' ';       //f       && f retunrs false
-// var a6 = 0     && 1;        // f      &&   t   returns   1
-// var a7 = 1     &&  false;   // t && f returns 1
-// var a8 = true  && {};       // t && t returns true
-// var a9 = false && {};       // f  && t return {}
-// var a10 = "Cat"&& (3==4);   //t  && f return "Cat"
-// var a11 = "Cat"&& 0;        //t  && false return "cat"
-// var a12 = undefined && 'Cat'; // f && t returns "Cat"
+// var a5 = false || ' ';       //f       && f retunrs false
+// var a6 = 0     || 1;        // f      &&   t   returns   1
+// var a7 = 1     ||  false;   // t && f returns 1
+// var a8 = true  || {};       // t && t returns true
+// var a9 = false || {};       // f  && t return {}
+// var a10 = "Cat"|| (3==4);   //t  && f return "Cat"
+// var a11 = "Cat" || 0;        //t  && false return "cat"
+// var a12 = undefined || 'Cat'; // f && t returns "Cat"
 
 // alert(a1);
 // alert(a2);
@@ -72,8 +72,6 @@ console.log(i);
 
 // for(var i=1; i<=10; i++){
 // console.log(num  +  " x "  + i + " = " +(num*i )+ "\n" )
-
-
 // }
 
 // =============================break==========================
@@ -94,22 +92,22 @@ console.log(i);
 
 // for(var z = 3; z<=10; z++){
 //     if(z == 7){
-//         break;                                 //continue ka keyword jahan laga hota he sirf os condition per code ko break karega or oske baad wale code ko run karwaega
+//         continue;                                 //continue ka keyword jahan laga hota he sirf os condition per code ko break karega or oske baad wale code ko run karwaega
 //     }
 //     console.log("Z = "+z);
 // }
 
 // console.log("code after loop");
 
-// =======================task-for-finding-prime-number================================
+// // =======================task-for-finding-prime-number================================
 
 // var num = parseInt(+prompt("Enter your number and find that it is a prime number ?"));
 
 // for (var i = 2; i <= 10; i++) {
 //   var result = num % i;
-//   document.getElementById(result).innerHTML("the remainder is " + result);
+//   document.write("the remainder is " + result);
 //   if (result == 0) {
-//     document.getElementById(answer).innerHTML(" so this number is not a prime number = " + num);
+//     document.write(" so this number is not a prime number = " + num);
 //     break;
 //   }
 // }
